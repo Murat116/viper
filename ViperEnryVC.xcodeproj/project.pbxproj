@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5510E024A09AB00045BC95 /* ViewPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5510DF24A09AB00045BC95 /* ViewPresentor.swift */; };
+		5C5510E224A09ABE0045BC95 /* ViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5510E124A09ABE0045BC95 /* ViewInteractor.swift */; };
+		5C5510E424A09ACA0045BC95 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5510E324A09ACA0045BC95 /* ViewRouter.swift */; };
+		5C5510E624A09AD40045BC95 /* ViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5510E524A09AD40045BC95 /* ViewAssembly.swift */; };
+		5C5510E824A09AE40045BC95 /* ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5510E724A09AE40045BC95 /* ViewProtocols.swift */; };
 		5C5A962D249D525400C52D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A962C249D525400C52D27 /* AppDelegate.swift */; };
 		5C5A962F249D525400C52D27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A962E249D525400C52D27 /* SceneDelegate.swift */; };
 		5C5A9631249D525400C52D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A9630249D525400C52D27 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5510DF24A09AB00045BC95 /* ViewPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentor.swift; sourceTree = "<group>"; };
+		5C5510E124A09ABE0045BC95 /* ViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInteractor.swift; sourceTree = "<group>"; };
+		5C5510E324A09ACA0045BC95 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		5C5510E524A09AD40045BC95 /* ViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssembly.swift; sourceTree = "<group>"; };
+		5C5510E724A09AE40045BC95 /* ViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocols.swift; sourceTree = "<group>"; };
 		5C5A9629249D525400C52D27 /* ViperEnryVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperEnryVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5A962C249D525400C52D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C5A962E249D525400C52D27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5510E924A09AEE0045BC95 /* ViewViper */ = {
+			isa = PBXGroup;
+			children = (
+				5C5A9630249D525400C52D27 /* ViewController.swift */,
+				5C5510DF24A09AB00045BC95 /* ViewPresentor.swift */,
+				5C5510E124A09ABE0045BC95 /* ViewInteractor.swift */,
+				5C5510E324A09ACA0045BC95 /* ViewRouter.swift */,
+				5C5510E724A09AE40045BC95 /* ViewProtocols.swift */,
+				5C5510E524A09AD40045BC95 /* ViewAssembly.swift */,
+			);
+			path = ViewViper;
+			sourceTree = "<group>";
+		};
 		5C5A9620249D525400C52D27 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +81,7 @@
 			children = (
 				5C5A962C249D525400C52D27 /* AppDelegate.swift */,
 				5C5A962E249D525400C52D27 /* SceneDelegate.swift */,
-				5C5A9630249D525400C52D27 /* ViewController.swift */,
+				5C5510E924A09AEE0045BC95 /* ViewViper */,
 				5C5A9632249D525400C52D27 /* Main.storyboard */,
 				5C5A9635249D525700C52D27 /* Assets.xcassets */,
 				5C5A9637249D525700C52D27 /* LaunchScreen.storyboard */,
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5510E224A09ABE0045BC95 /* ViewInteractor.swift in Sources */,
 				5C5A9631249D525400C52D27 /* ViewController.swift in Sources */,
 				5C5A962D249D525400C52D27 /* AppDelegate.swift in Sources */,
+				5C5510E424A09ACA0045BC95 /* ViewRouter.swift in Sources */,
 				5C5A962F249D525400C52D27 /* SceneDelegate.swift in Sources */,
+				5C5510E624A09AD40045BC95 /* ViewAssembly.swift in Sources */,
+				5C5510E824A09AE40045BC95 /* ViewProtocols.swift in Sources */,
+				5C5510E024A09AB00045BC95 /* ViewPresentor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
